@@ -189,7 +189,7 @@ header {
   position: absolute;
   width: 100%;
   height: 140px;
-  line-height: 100px;
+  line-height: 50px;
   background-color: #181f69;
   padding: 20px;
   text-align: center;
@@ -369,41 +369,6 @@ header {
 .Modern-Slider .slick-dots {
   opacity: 0;
 }
-/*
-.Modern-Slider .NextArrow{
-  outline: none;
-  display: none;
-  position:absolute;
-  top:60px;
-  right:60px;
-  width:50px;
-  height:50px;
-  background:rgba(0,0,0,.50);
-  border:0 none;
-  margin-top:-22.5px;
-  text-align:center;
-  font:32px/50px FontAwesome;
-  color:#FFF;
-  z-index:5;
-}
-
-.Modern-Slider .NextArrow:before{content:'\f105';}
-
-.Modern-Slider .PrevArrow{
-  outline: none;
-  position:absolute;
-  top:60px;
-  right: 120px;
-  width:50px;
-  height:50px;
-  background:rgba(0,0,0,.50);
-  border:0 none;
-  margin-top:-22.5px;
-  text-align:center;
-  font:32px/50px FontAwesome;
-  color:#FFF;
-  z-index:5;
-}*/
 
 .Modern-Slider .item .image {
   width: 100%;
@@ -590,36 +555,6 @@ header {
   letter-spacing: 0.5px;
   margin-bottom: 12.5px;
 }
-
-
-
-/* Projects Style */
-
-#projects {
-  padding-left: 60px;
-  padding-right: 60px;
-  padding-bottom: 50px;
-}
-
-#projects .masonry {
-  position: relative;
-  width: 100%;
-}
-
-#projects .masonry .item img {
-  transition: all 1s;
-  width: 100%;
-  overflow: hidden;
-  margin-bottom: 30px;
-}
-
-#projects .masonry .item img:hover {
-  opacity: 0.5;
-}
-
-
-
-/* Video Presentation Style */
 
 #video {
   text-align: center;
@@ -825,7 +760,6 @@ header {
   color: #232323;
   letter-spacing: 0.5px;
 }
-
 #blog .item .text-content span {
   display: inline-block;
   font-size: 15px;
@@ -980,46 +914,6 @@ header {
     right: 0px;
     padding: 0px 30px;
   }
-
-/*  .Modern-Slider .NextArrow{
-    outline: none;
-    display: none;
-    position:absolute;
-    top:120px;
-    right: 50%;
-    transform: translateX(50%);
-    margin-right: -30px;
-    width:50px;
-    height:50px;
-    background:rgba(0,0,0,.50);
-    border:0 none;
-    text-align:center;
-    font:32px/50px FontAwesome;
-    color:#FFF;
-    z-index:5;
-  }
-
-  .Modern-Slider .NextArrow:before{content:'\f105';}
-
-  .Modern-Slider .PrevArrow{
-    outline: none;
-    position:absolute;
-    top:120px;
-    left: 50%;
-    transform: translateX(-50%);
-    margin-left: -30px;
-    width:50px;
-    height:50px;
-    background:rgba(0,0,0,.50);
-    border:0 none;
-    text-align:center;
-    font:32px/50px FontAwesome;
-    color:#FFF;
-    z-index:5;
-  }
-*/
-  
-
 }
 
 @media (max-width: 690px) {
@@ -1060,7 +954,7 @@ header {
   }
 
   #blog .tabgroup ul li img {
-    float: none;
+    float: left;
     width: 100%;
     margin-bottom: 15px;
   }
